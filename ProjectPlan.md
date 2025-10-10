@@ -6,7 +6,9 @@ Research Question: How does crime in specific locations affect real estate marke
 Team: We will work together and communicate to ensure that no one person carries a majority of the burden. We will play to our strengths where Jaitin will work on the more explanatory parts of the project (Modules 1-2, 4-5, 11-15) while Zach will work more on the technical parts of the project (Modules 3, 6-10). If one of the partners needs help then the other will help out as needed. 
 
 Datasets: One of our sources is the nasdaq database that contains Zillow real estate information and it contains three tables. The first table contains the value of the house and the date of when the value was created. It also has an indicator id and a region id which act as foreign keys to link with the other tables. Another table from this database contains data about the indicators of the houses and also contains a unique id for each indicator. The last table contains data about the specific region where the data comes from. Some are more specific where the whole zip code, city, county, and state are listed while some others only list the state where the house is located. This region table also contains a unique id for each region. The other source comes from kaggle that was collected from the US government crime department. It contains the city/state, when, the weapon involved, the victim’s relationship to the perpetrator, and some data about the victim/perpetrator themselves. We will link all these tables together to further analyze them.
+
 Zillow: https://data.nasdaq.com/databases/ZILLOW
+
 Crime: https://www.kaggle.com/datasets/mrayushagrawal/us-crime-dataset
 
 
