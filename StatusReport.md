@@ -1,4 +1,6 @@
-**Timeline** see pdf for full status report with images
+**Timeline** 
+
+see pdf for full status report with images
 
 1. Understand Data/Schema design: Jaitin  
    1. Understand all object types and identify potential problems  
