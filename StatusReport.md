@@ -63,7 +63,7 @@ In both datasets I then created a new column that combined the city and state so
 ![][image10]  
 In addition, I summed up the total number of crimes in each city-state pairing in the dataset so that we can do further analysis about how the total number of incidents affects the price of a house. I then combined this data with the combined zillow dataset to get the final dataset that we will be using.   
 ![][image11]  
-For the zillow dataset we are only looking at the values from 2014 because those are the most relevant to us today. As the housing market is always changing we want to look at the data that would be most relevant to a home buyer today. 
+For the zillow dataset we are only looking at the values from 2014 because the zillow dataset only has data up until 2014 and those are the most relevant to us today. As the housing market is always changing we want to look at the data that would be most relevant to a home buyer today. 
 
 3. Analysis and Visualization
 
