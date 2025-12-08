@@ -117,7 +117,7 @@ plt.savefig('output/top_5_crime_trends.png')
 # Line graph showing the home value of Top 5 Cities with Crime by year
 plt.figure(figsize=(14, 8))
 for city in top_5_crime_values_df['city_state'].unique():
-    city_data = top_5_crime_values_df[top_5_crime_df['city_state'] == city]
+    city_data = top_5_crime_values_df[top_5_crime_values_df['city_state'] == city]
     plt.plot(city_data['year'], city_data['value'], marker='o', label=city)
 
 plt.xlabel('Year')
