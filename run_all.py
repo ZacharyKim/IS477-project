@@ -89,8 +89,8 @@ final_df = pd.merge(final_zilow_df, crime_clean, on="year_city_state", how="inne
 final_df["total_crime"] = final_df["actual_murder"] + final_df["actual_rape_total"] + final_df["actual_robbery_total"] + final_df["actual_assault_total"] + final_df["actual_theft_total"]
 
 # Select and rename columns
-final_df = final_df[["date", "year_x", "city_state_x", "year_city_state", "indicator_id", "indicator", "value", "actual_murder", "actual_rape_total", "actual_robbery_total", "actual_assault_total", "actual_theft_total"]]
-final_df.columns = ["date", "year", "city_state", "year_city_state", "indicator_id", "indicator", "value", "actual_murder", "actual_rape_total", "actual_robbery_total", "actual_assault_total", "actual_theft_total"]
+final_df = final_df[["date", "year_x", "city_state_x", "year_city_state", "indicator_id", "indicator", "value", "actual_murder", "actual_rape_total", "actual_robbery_total", "actual_assault_total", "actual_theft_total", "total_crime"]]
+final_df.columns = ["date", "year", "city_state", "year_city_state", "indicator_id", "indicator", "value", "actual_murder", "actual_rape_total", "actual_robbery_total", "actual_assault_total", "actual_theft_total", "total_crime"]
 
 # output final dataframe to csv
 final_df.to_csv("output/final_df.csv", index=False)
